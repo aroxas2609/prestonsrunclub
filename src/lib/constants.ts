@@ -12,7 +12,7 @@ export const ETSY_MERCH_URL = "https://www.etsy.com/au/listing/4434966516/";
 export const MERCH_PRODUCT = {
   id: "prc-tee-1",
   name: "Prestons Run Club T-shirt",
-  price: 35,
+  price: 45,
   currency: "AUD",
   description:
     "Soft everyday run club tee for training, coffee runs and community days.",
