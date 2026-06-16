@@ -1,4 +1,5 @@
-﻿import Link from "next/link";
+﻿import Image from "next/image";
+import Link from "next/link";
 import { INSTAGRAM_URL, SITE_NAME } from "@/lib/constants";
 
 export function Footer() {
@@ -8,7 +9,19 @@ export function Footer() {
     <footer className="border-t border-black/10 bg-black text-white">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:px-6 md:grid-cols-2">
         <div>
-          <p className="font-display text-2xl font-black">{SITE_NAME}</p>
+          <div className="flex items-center gap-3">
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-neutral-950 ring-1 ring-white/10 sm:h-11 sm:w-11">
+              <Image
+                src="/run-club-logo.png"
+                alt=""
+                width={1024}
+                height={1024}
+                className="h-full w-full object-contain"
+                aria-hidden
+              />
+            </span>
+            <p className="font-display text-2xl font-black">{SITE_NAME}</p>
+          </div>
           <p className="mt-3 max-w-md text-sm text-white/65">
             Local Saturday run club for movement, community and good energy.
           </p>

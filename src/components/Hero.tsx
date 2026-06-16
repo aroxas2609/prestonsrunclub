@@ -94,14 +94,15 @@ export function Hero() {
           onPointerLeave={onPointerLeave}
         >
           <div className="absolute -inset-6 rounded-3xl bg-accent/25 blur-2xl" />
-          <div className="relative rounded-3xl border border-black/10 bg-white p-3 shadow-xl sm:p-4">
+          <div className="relative overflow-hidden rounded-3xl border border-black/10 bg-white p-3 shadow-xl sm:p-4">
             <Image
-              src="/prclogo.jpeg"
-              alt="Prestons Run Club poster"
-              width={1200}
-              height={1800}
-              className="h-auto w-full rounded-2xl object-contain"
+              src="/hero-moon.png"
+              alt="Join our journey with Prestons Run Club"
+              width={1024}
+              height={682}
+              className="h-auto w-full rounded-2xl object-cover"
               priority
+              sizes="(max-width: 1024px) 90vw, 520px"
             />
           </div>
         </div>

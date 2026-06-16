@@ -1,5 +1,6 @@
 ﻿import type { Metadata } from "next";
 import { FAQ } from "@/components/FAQ";
+import { BrandLogos } from "@/components/BrandLogos";
 import { Hero } from "@/components/Hero";
 import { InstagramGrid } from "@/components/InstagramGrid";
 import { RunDetails } from "@/components/RunDetails";
@@ -24,6 +25,7 @@ function BrandStatement() {
             Prestons Run Club brings together beginners, casual runners and
             experienced runners for a weekly Saturday community run.
           </p>
+          <BrandLogos />
         </Reveal>
       </div>
     </section>

@@ -27,6 +27,10 @@ export const metadata: Metadata = {
   },
   description:
     "Local running community. Every Saturday 9:00 AM at Black Elk. All levels welcome.",
+  icons: {
+    icon: "/run-club-logo.png",
+    apple: "/run-club-logo.png",
+  },
 };
 
 export default function RootLayout({
